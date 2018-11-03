@@ -43,8 +43,10 @@
 }
 
 .star-rating__input{
-	display: none;
+	opacity: 0;
 }
+
+
 .star-rating__ico:hover:before,
 .star-rating__ico:hover ~ .star-rating__ico:before,
 .star-rating__input:checked ~ .star-rating__ico:before
