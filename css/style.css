@@ -152,12 +152,12 @@ progress::-webkit-progress-value {
 .container{
   float: left;
   clear: both;
+  padding-bottom: 50px;
 }
 
 .container .block{
-  width: 45%;
-  float: left;
-  margin-right: 5%;
+  width: 100%;
+  column-count: 2;
 }
 
 .container .block__text_desr {
