@@ -21,7 +21,8 @@
 }
 
 .star-rating{
-	font-size: 0;
+  font-size: 0;
+  margin-left: -120px;
 }
 .star-rating__wrap{
 	display: inline-block;
