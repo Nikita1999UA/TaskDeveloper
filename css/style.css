@@ -1,0 +1,169 @@
+.task__forDeveloper{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text__header{
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.text__desr{
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+.star-rating{
+	font-size: 0;
+}
+.star-rating__wrap{
+	display: inline-block;
+	font-size: 1rem;
+}
+.star-rating__wrap:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.star-rating__ico{
+	float: right;
+	padding-left: 2px;
+	cursor: pointer;
+	color: gray;
+}
+.star-rating__ico:last-child{
+	padding-left: 0;
+}
+
+.star-rating__input{
+	display: none;
+}
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before
+{
+    content: "\f005";
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    color: #FFAC00;
+}
+
+
+.progress{
+  position: relative;
+  display: inline-block;
+  margin-top: 35px;
+}
+
+progress {
+  height: 20px;
+  width: 260px;
+  border-radius: 9px;
+  background-color: #fff;
+  box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+progress::-webkit-progress-bar {
+  border-radius: 18px;
+  background-color: #fff;
+  box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+progress::-webkit-progress-value {
+  border-radius: 18px;
+  background-color: #00C300;
+  
+}
+
+.progress-value{
+  position: absolute;
+  width: 15%;
+  top: 2px;
+  left: 50%;
+  margin-left: -5%;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+.btn {
+  width: 100px;
+  height: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 35px;
+  transition: .2s;
+}
+
+.btn:hover{
+  background-color: gray;
+  color: #fff;
+}
+
+.browser {
+  margin-top: 35px;
+}
+
+.browser img {
+  float: left;
+  margin-right: 15px;
+}
+
+.browser > img:first-child{
+  color: #DD3B30;
+}
+
+
+.browser > img:first-child:before{
+  content: "Ch";
+  color: #5BB23C;
+}
+
+.browser > img:first-child:after{
+  content: "me";
+  color: #FCD933;
+}
+
+.browser  img:nth-child(2){
+  color: #EB7C32;
+}
+
+.browser  img:nth-child(3) {
+  color: #E13C31;
+}
+
+.browser  img:nth-child(4){
+  color: #808080;
+  clear: right;
+}
+
+.browser img:nth-child(5){
+  color: #2F7FB7;
+  float: right;
+}
+
+.container{
+  float: left;
+  clear: both;
+}
+
+.container .block{
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+}
+
+.container .block__text_desr {
+  font-size: 1.2vw;
+  font-family: Helvetica;
+}
+
+
+
