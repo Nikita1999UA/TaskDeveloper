@@ -22,7 +22,6 @@
 
 .star-rating{
   font-size: 0;
-  margin-left: -120px;
 }
 .star-rating__wrap{
 	display: inline-block;
@@ -37,14 +36,16 @@
 	float: right;
 	padding-left: 2px;
 	cursor: pointer;
-	color: gray;
+  color: gray;
+  position: relative;
 }
 .star-rating__ico:last-child{
 	padding-left: 0;
 }
 
 .star-rating__input{
-	opacity: 0;
+  opacity: 0;
+  position: absolute;
 }
 
 
